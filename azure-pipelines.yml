@@ -34,4 +34,4 @@ steps:
     ResourceGroupName: 'WebApplication120191005105859ResourceGroup'
     SlotName: 'production'
     VirtualApplication: 'sample'
-    packageForLinux: '$(System.ArtifactDirectory)/**/*.zip'
+    packageForLinux: '$(Build.ArtifactDirectory)/**/*.zip'
