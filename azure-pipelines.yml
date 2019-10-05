@@ -33,5 +33,4 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'WebApplication120191005105859ResourceGroup'
     SlotName: 'production'
-    VirtualApplication: 'sample'
     packageForLinux: '$(Build.ArtifactDirectory)/**/*.zip'
